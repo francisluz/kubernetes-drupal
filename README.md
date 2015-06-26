@@ -24,6 +24,7 @@ kubectl get nodes
 # GET NODE NAME PREFIX ABOVE
 
 Change the XXXXXX from your prefix name
+
 gcloud compute firewall-rules create hello-drupal-80 --allow tcp:80 \
     --target-tags gke-hello-drupal-XXXXXX-node
 
